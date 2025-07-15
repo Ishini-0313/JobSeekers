@@ -11,6 +11,7 @@
         die("Invalid query ".mysqli_error());
     }
     else{
+        //Data are Inserted into a table
         echo "
             <h2>Job Seekers</h2>
             <table border = '1'>
