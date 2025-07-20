@@ -8,19 +8,19 @@
     <body>
         <h2>JOB SEEKER REGISTRATION FORM</h2>
         <h3>Registration Details</h3>
-        <form>
+        <form action = "insertdata.php" method = "post">
             Title:
-                <input type="text" name="titel">
+                <input type="text" name="title">
                 <br><br>
             Name:
                 <input type="text" name="name">
                 <br><br>
             Gender:
-                <input type="radio" value="male">male               
-                <input type="radio" value="female">female
+                <input type="radio" value="male" name="gender">male               
+                <input type="radio" value="female" name="gender">female
                 <br><br>
             Date of Birth:
-                <input type="date">
+                <input type="date" name="dob">
                 <br><br>
             <input type="submit" value="Sign Up">
             <input type="reset" value="reset">
