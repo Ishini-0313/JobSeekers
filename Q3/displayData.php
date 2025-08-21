@@ -27,10 +27,12 @@
                 echo "<td>".$row['author']."</td>";
                 echo "<td>".$row['book_name']."</td>";
                 echo "<td>".$row['isbn_no']."</td>";
+                //delete btn
                 echo "<form action='delete_books.php' method='post'>
                         <input type='hidden' name='id' value='".$row['book_id']."'>
                         <td><input type='submit' value='Delete' name='dltbtn'></td>
                     </form>";
+                
             echo "</tr>";
         }
 
