@@ -6,7 +6,7 @@
         <title>Registration Form</title>
     </head>
     <body>
-        <h2>JOB SEEKER REGISTRATION FORM</h2>
+        <h2 style="text-align:center ; background-color:pink ;">JOB SEEKER REGISTRATION FORM</h2>
         <h3>Registration Details</h3>
         <form action = "insertdata.php" method = "post">
             Title:
