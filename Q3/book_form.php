@@ -6,7 +6,7 @@
     <title>Book Form</title>
 </head>
 <body>
-    <form action="book_form.php" method ="post">
+    <form action="insertdata.php" method ="post">
         <h2>Enter Book Details</h2>
 
         Book Id :
