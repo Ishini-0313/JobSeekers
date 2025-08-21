@@ -10,7 +10,13 @@
         <h3>Registration Details</h3>
         <form action = "insertdata.php" method = "post">
             Title:
-                <input type="text" name="title">
+                <select name="title" id="">
+                    <option value="">Select Title</option>
+                    <option value="Mr">Mr</option>
+                    <option value="Ms">Ms</option>
+                    <option value="Dr">Dr</option>
+                    <option value="Prof">Prof</option>
+                </select>
                 <br><br>
             Name:
                 <input type="text" name="name">
