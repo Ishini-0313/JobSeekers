@@ -32,6 +32,11 @@
                         <input type='hidden' name='id' value='".$row['book_id']."'>
                         <td><input type='submit' value='Delete' name='dltbtn'></td>
                     </form>";
+                //update btn
+                echo "<form action='update_books.php' method='post'>
+                        <input type='hidden' name='id' value='".$row['book_id']."'>
+                        <td><input type='submit' value='Update' name='updateBtn'></td>
+                    </form>";
                 
             echo "</tr>";
         }
