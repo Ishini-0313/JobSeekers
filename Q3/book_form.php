@@ -25,6 +25,8 @@
         <input type="int" name="no">
         <br><br>
 
+        <input type="submit" value="Add Book">
+        <input type="reset" value="Clear">
     </form>
 </body>
 </html>
