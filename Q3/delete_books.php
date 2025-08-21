@@ -15,5 +15,6 @@
             echo "data row deleted.";
         }
     }
+    header("Location: displayData.php");
     mysqli_close($conn);
 ?>
